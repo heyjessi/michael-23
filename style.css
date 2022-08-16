@@ -1,0 +1,61 @@
+@font-face {
+  font-family: Comico;
+  src: url("Comico-Regular.otf");
+}
+@font-face {
+  font-family: Satoshi;
+  src: url("Satoshi-Medium.otf");
+}
+
+body {
+  background-color: green;
+  color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+h1 {
+  text-align: center;
+  font-family: Comico;
+}
+
+p,
+ul,
+.collapsible {
+  font-family: Satoshi;
+}
+
+.end-quote {
+  text-align: end;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.small {
+  width: 30%;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  text-align: center;
+}
